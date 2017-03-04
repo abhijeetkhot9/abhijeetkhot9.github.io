@@ -1,0 +1,2 @@
+select Dname as DEPARTMENT NAME ,count(empNo) as NUMBER OF EMPLOYEE from Department d,Eployee e
+where d.DeptNo=e.EmpNo;
