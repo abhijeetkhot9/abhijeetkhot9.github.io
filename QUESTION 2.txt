@@ -1,0 +1,11 @@
+string s= "We test coders. Give us a try?";
+List<int> noOfWords =new List<int>();
+s=s.trim().Replace("?",".").Replace("!",".");
+string[] sentences= s.split('.');
+For each( string item in sentences)
+{
+   string[] words=item.trim().Split(" ");
+  noOfWords.add(words.count);
+}
+Int result = noOfWords.Max();
+Console.WriteLine(result);
